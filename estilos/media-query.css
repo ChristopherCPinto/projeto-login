@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/*ABAIXO CONFIGURAÇÃO PARA TABLET*/
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
     
     body{/*QANDO FICAR NO MODO TABLETE APLICAR O GRADIENTE*/
@@ -7,6 +9,7 @@
     }
     section#login{
         width: 80vw;
+        height: 280px;
     }
 
     section#login > div#imagem{
@@ -22,6 +25,8 @@
 
 }
 
+/*ABAIXO CONFIGURAÇÃO PARA DESKTOP E TELAS GRANDES*/
+
 @media screen and (min-width: 992px) {
 
 body/*QUANDO FICAR NO MODO TELA GRANDE APLICAR O GRADIENTE*/
@@ -32,6 +37,7 @@ body/*QUANDO FICAR NO MODO TELA GRANDE APLICAR O GRADIENTE*/
 
     section#login{
         width: 950px;
+        height: 350px;
     }
 
     section#login > div#imagem{
@@ -49,7 +55,8 @@ body/*QUANDO FICAR NO MODO TELA GRANDE APLICAR O GRADIENTE*/
     }
 
     #formulario p{
-        font-size: 1.2em;
+        font-size: 1em;
+        margin: 20px 0px;
     }
 
 }
