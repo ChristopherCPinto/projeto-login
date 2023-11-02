@@ -81,19 +81,18 @@ div.campo > label{
 }
 div.campo i{
     color: white;
-   
     font-size: 2em;
     width: 40px;
     padding: 5px;
 }
 div.campo > input{
     background-color: #49a09d;
-    font-size: 1em;
+    font-size: 1.5em;
     width: calc(100% - 46px);
     height: 100%;
     border: 0px;
     border-radius: 8px;
-    transform: translateY(-13px);
+    transform: translateY(-6.6px);
 }
 
 div.campo input:focus-within{
